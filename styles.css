@@ -1,78 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #222021;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    background-color: #363636;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #461111;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin: 0 25px;
+  list-style: none;
+  margin: 0 25px;
 }
 
-nav ul li>a {
-    text-decoration: none;
-    color: white;
+nav ul li > a {
+  text-decoration: none;
+  color: white;
 }
 
-nav ul li>a:hover {
-    color: #48494B;
-    font-size: 1.015rem;
+nav ul li > a:hover {
+  color: #b3541e;
+  font-size: 1.015rem;
 }
 
 .left {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .firstsection {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 65px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
 }
 
-.firstsection>div {
-    width: 35%;
+.firstsection > div {
+  width: 35%;
 }
 
 .leftsection {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 .rightsection {
-    width: 80%;
+  width: 80%;
 }
 
 .cc {
-    color: #787276;
+  color: #a13333;
 }
 
 #element {
-    color: #787276;
+  color: #a13333;
 }
 
-.secondsection{
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 90vh;
+}
+.secondsection > h1 {
+  font-size: 2rem;
+}
+
+hr {
+  border: 0;
+  background: #461111;
+  height: 1px;
+  margin: 60px 75px;
+}
+.aboveh1 {
+  color: #a13333;
+}
+
+.box {
+  background: #b3541e;
+  height: 2px;
+  width: 85vw;
+  margin-top: 50px;
+  display: flex;
+  
+  
+}
+
+.line{
+    background: #b3541e;
+    height: 60px;
+    width: 0.3px;
+    margin: 0 80px;    
+}
+
+.logo{
+    position: relative;
+    left: -23px;
+    bottom: -64px;
+
+}
+
+.thirdsection {
     max-width: 80vw;
     margin: auto;
-}
-
-hr{
-    
-}
+    height: 90vh;
+  }
