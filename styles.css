@@ -163,14 +163,48 @@ hr {
   border-radius: 5px;
   max-width: 1200px;
   margin: 0 auto;
-  text-align:justify;
+  text-align: justify;
   line-height: 1.5;
 }
 
-.projbox{
+.projbox {
   /* border-style: solid; */
-  border: 2px solid red;
-  height: 400px;
+  /* border: 2px solid red; */
+  height: 450px;
   width: 1200px;
   margin-top: 30px;
+  border-radius: 5px;
 }
+
+.projboxtext {
+  /* border: 2px solid red; */
+  height: 400px;
+  width: 500px;
+  position: relative;
+  right: -700px;
+  top: -407px;
+  font-size: 1.5rem;
+  color: #333;
+  background-color: #f7f7f7;
+  /* padding: 20px; */
+  border-radius: 5px;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.gwlink {
+  /* border: 2px solid red; */
+  color: #b3541e;
+  height: 80px;
+  width: 200px;
+  position: relative;
+  left: 870px;
+  top: -490px;
+  font-size: 1.3rem;
+  }
+
+  img {
+    border-radius: 5px;
+  }
