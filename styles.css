@@ -182,6 +182,7 @@ hr {
 .projboxtext {
   height: 400px;
   width: 600px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
   right: -720px;
   top: -407px;
