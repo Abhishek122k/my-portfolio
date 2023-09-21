@@ -79,7 +79,7 @@ nav ul li>a:hover {
 .secondsection {
   max-width: 80vw;
   margin: auto;
-  height: 90vh;
+  height: 85vh;
 }
 
 h1 {
@@ -124,7 +124,7 @@ hr {
 .thirdsection {
   max-width: 80vw;
   margin: auto;
-  height: 90vh;
+  height: 70vh;
 }
 
 .to-top {
@@ -174,7 +174,7 @@ hr {
 .projbox {
   height: 450px;
   width: 1200px;
-  margin-top: 30px;
+  margin-top: 100px;
   border-radius: 5px;
 
 }
@@ -214,7 +214,7 @@ img {
 .fourthsection {
   max-width: 80vw;
   margin: auto;
-  height: 70vh;
+  height: 80vh;
 }
 
 nav.sticky {
