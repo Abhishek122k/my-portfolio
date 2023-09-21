@@ -168,36 +168,27 @@ hr {
 }
 
 .projbox {
-  /* border-style: solid; */
-  /* border: 2px solid red; */
   height: 450px;
   width: 1200px;
   margin-top: 30px;
   border-radius: 5px;
+  
 }
 
 .projboxtext {
-  display: flex;
-  /* border: 2px solid red; */
   height: 400px;
-  width: 500px;
+  width: 600px;
   position: relative;
   right: -720px;
   top: -407px;
   font-size: 1.5rem;
-  /* color: #333; */
-  /* background-color: #f7f7f7; */
-  /* padding: 20px; */
   border-radius: 5px;
   max-width: 1200px;
-  /* margin: 0 auto; */
   text-align: justify;
   line-height: 1.5;
 }
 
 .gwlink {
-  /* border: 2px solid red; */
-  display: flex;
   color: #b3541e;
   height: 80px;
   width: 200px;
