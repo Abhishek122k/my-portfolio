@@ -177,6 +177,7 @@ hr {
 }
 
 .projboxtext {
+  display: flex;
   /* border: 2px solid red; */
   height: 400px;
   width: 500px;
@@ -196,6 +197,7 @@ hr {
 
 .gwlink {
   /* border: 2px solid red; */
+  display: flex;
   color: #b3541e;
   height: 80px;
   width: 200px;
