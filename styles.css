@@ -1,16 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 html {
   scroll-behavior: smooth;
+ 
 }
 
 body {
   background-color: #000000;
   color: white;
   font-family: "Poppins", sans-serif;
+  
 }
 
 nav {
@@ -19,6 +22,8 @@ nav {
   align-items: center;
   height: 90px;
   background-color: #461111;
+  transition: 0.5s;
+  z-index: 10000;
 }
 
 nav ul {
@@ -172,7 +177,7 @@ hr {
   width: 1200px;
   margin-top: 30px;
   border-radius: 5px;
-  
+
 }
 
 .projboxtext {
@@ -196,8 +201,26 @@ hr {
   left: 870px;
   top: -490px;
   font-size: 1.3rem;
-  }
+  
+}
 
-  img {
-    border-radius: 5px;
-  }
+img {
+  border-radius: 5px;
+}
+
+.link{
+  background-color: #b3541e;
+}
+
+.fourthsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 90vh;
+}
+
+nav.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
