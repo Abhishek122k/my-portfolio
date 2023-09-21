@@ -1,19 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  
+
 }
 
 html {
   scroll-behavior: smooth;
- 
+
 }
 
 body {
   background-color: #000000;
   color: white;
   font-family: "Poppins", sans-serif;
-  
+
 }
 
 nav {
@@ -83,8 +83,8 @@ nav ul li>a:hover {
   height: 90vh;
 }
 
-.secondsection>h1 {
-  font-size: 2rem;
+h1 {
+  font-size: 2.5rem;
 }
 
 hr {
@@ -201,26 +201,62 @@ hr {
   left: 870px;
   top: -490px;
   font-size: 1.3rem;
-  
+
 }
 
 img {
   border-radius: 5px;
 }
 
-.link{
+.link {
   background-color: #b3541e;
 }
 
 .fourthsection {
   max-width: 80vw;
   margin: auto;
-  height: 90vh;
+  height: 70vh;
 }
 
-nav.sticky{
+nav.sticky {
   position: fixed;
   top: 0;
   width: 100%;
 
+}
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
