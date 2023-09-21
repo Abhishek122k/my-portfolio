@@ -166,3 +166,11 @@ hr {
   text-align:justify;
   line-height: 1.5;
 }
+
+.projbox{
+  /* border-style: solid; */
+  border: 2px solid red;
+  height: 400px;
+  width: 1200px;
+  margin-top: 30px;
+}
