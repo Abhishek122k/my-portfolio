@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: border-box;
 
 }
 
@@ -172,14 +173,18 @@ hr {
 }
 
 .projbox {
-  height: 450px;
-  width: 1200px;
+  padding: 5px;
+  height: 400px;
+  width: 1350px;
   margin-top: 100px;
   border-radius: 5px;
+  border: red 5px;
+  border-style: ridge;
 
 }
 
 .projboxtext {
+
   height: 400px;
   width: 600px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -190,7 +195,7 @@ hr {
   border-radius: 5px;
   max-width: 1200px;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .gwlink {
@@ -198,7 +203,7 @@ hr {
   height: 80px;
   width: 200px;
   position: relative;
-  left: 870px;
+  left: 900px;
   top: -490px;
   font-size: 1.3rem;
 
