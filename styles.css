@@ -162,8 +162,7 @@ hr {
   position: relative;
   bottom: -200px;
   font-size: 1.25rem;
-  color: #333;
-  background-color: #f7f7f7;
+  color: white;
   padding: 20px;
   border-radius: 5px;
   max-width: 1200px;
@@ -178,8 +177,7 @@ hr {
   width: 1350px;
   margin-top: 100px;
   border-radius: 5px;
-  border: red 5px;
-  border-style: ridge;
+ 
 
 }
 
@@ -214,7 +212,15 @@ img {
 }
 
 .link {
-  background-color: #b3541e;
+  background-color: white;
+  height: 50px;
+  border-radius: 3px;
+  font-size: 20px;
+  width: 140px;
+}
+
+.link:hover {
+  background-color: grey;
 }
 
 .fourthsection {
@@ -256,13 +262,13 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-  background-color: #b3541e;
+  background-color: #461111;
 }
 
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #a13333;
   padding: 20px;
 }
 
@@ -274,14 +280,14 @@ input[type=submit]:hover {
 
 .ln {
   position: relative;
-  left: 115px;
-  top: -23px;
+  left: 125px;
+  top: -25px;
 }
 
 .mail {
   position: relative;
-  left: 200px;
-  top: -90px;
+  left: 215px;
+  top: -95px;
 }
 
 .btn {
