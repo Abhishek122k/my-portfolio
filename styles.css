@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+ 
 
 }
 
@@ -14,6 +15,7 @@ body {
   background-color: #000000;
   color: white;
   font-family: "Poppins", sans-serif;
+  border: 2px #b3541e solid;
 }
 
 nav {
@@ -187,7 +189,7 @@ hr {
   width: 600px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
-  right: -720px;
+  right: -665px;
   top: -407px;
   font-size: 1.5rem;
   border-radius: 5px;
@@ -201,7 +203,7 @@ hr {
   height: 80px;
   width: 200px;
   position: relative;
-  left: 900px;
+  left: 865px;
   top: -490px;
   font-size: 1.3rem;
 
@@ -209,6 +211,8 @@ hr {
 
 img {
   border-radius: 5px;
+  position: relative;
+  left: -70px;
 }
 
 .link {
@@ -274,19 +278,19 @@ input[type=submit]:hover {
 
 .git {
   position: relative;
-  left: 0px;
+  left: 50px;
   top: 60px;
 }
 
 .ln {
   position: relative;
-  left: 125px;
+  left: 160px;
   top: -25px;
 }
 
 .mail {
   position: relative;
-  left: 215px;
+  left: 240px;
   top: -95px;
 }
 
