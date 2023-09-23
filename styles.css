@@ -274,14 +274,14 @@ input[type=submit]:hover {
 
 .ln {
   position: relative;
-  left: 100px;
-  top: 4px;
+  left: 115px;
+  top: -23px;
 }
 
 .mail {
   position: relative;
   left: 200px;
-  top: -55px;
+  top: -90px;
 }
 
 .btn {
